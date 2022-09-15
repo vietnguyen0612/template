@@ -1,0 +1,55 @@
+/* PC */
+@media (min-width : 1024px){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/* tablet */
+@media (min-width : 740px) and (max-width : 1023px){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+@media (max-width : 1032px) {
+    .contact-info p{
+        line-height: 1.8;
+    }
+}
+/* mobile */
+@media (max-width :739px){
+    .s-full-width {
+        width: 100%;
+    }
+    .mobile-col{
+        width : 100%;
+    }
+    .mobile-half {
+        width: 100%;
+        margin-top: 8px;
+
+    }
+    #header {
+    overflow: hidden;
+
+    }
+    #nav {
+        display: block;
+    }
+    #nav>li{
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header .search-btn {
+        display: none;
+    }
+    #header .mobile-menu-btn,
+    #header .search-btn{
+        float: right;
+        position: absolute;
+        top : 0;
+        right : 0
+    }
+    
+}
